@@ -1,0 +1,122 @@
+[
+  {
+    "instruction": "Classify the following text as belonging to one of the five sentiment classes (positive, negative, neutral, mixed, or none).",
+    "input": "The product arrived on time, but its packaging was severely damaged.",
+    "output": "Mixed"
+  },
+  {
+    "instruction": "Generate a creative product description of a <mask>. Make sure to include the features and benefits of the product.",
+    "input": "Bluetooth Headset",
+    "output": "Elevate your audio experience with this state-of-the-art Bluetooth Headset. This sleek and modern headset features powerful sound quality, noise cancelling features, and a comfortable fit that is sure to keep you connected while also looking stylish. The simple one-button control allows you to play, pause and answer calls with ease, while the long-lasting battery helps you stay connected for up to 10 hours. With its lightweight design, you can enjoy your audio with comfort and ease. Experience the best in audio and stay connected with this Bluetooth Headset!"
+  },
+  {
+    "instruction": "Generate a name for a new dress brand based on the following words: elegance, luxury, quality.",
+    "input": "",
+    "output": "Eluxurious Qualitywear"
+  },
+  {
+    "instruction": "Generate a recipe that combines the flavors of <mask> and <mask>.",
+    "input": "Cranberry, Garlic",
+    "output": "Garlic and Cranberry Chicken is an easy and delicious weeknight meal. Begin by seasoning 8 chicken thighs with salt and pepper. Heat a few tablespoons of olive oil in a large skillet over medium-high heat. Add the chicken and sear on each side until golden and cooked through, about 8 minutes. Add 2 cloves of minced garlic and cook for another 1-2 minutes. Remove the chicken from the skillet and set aside. In the same skillet over medium-high heat, add 1/4 cup of dried cranberries and 1/4 cup of chicken broth. Simmer for about 5 minutes until the cranberries are tender. Return the chicken to the skillet and toss with the cranberries and garlic. Sprinkle with freshly chopped herbs for added flavor and serve with a side of your favorite vegetables."
+  },
+  {
+    "instruction": "Design a logo for a new online financial tutoring service.",
+    "input": "",
+    "output": "A modern and elegant logo that conveys trust and reliability. A logo featuring the colors blue, white, and a touch of gold, with a shield design symbolizing the protection of financial security, wealth, and knowledge. The text should be set in a bold serif font and should include the company name."
+  },
+  {
+    "instruction": "Generate a persuasive essay that argues why <mask> is beneficial.",
+    "input": "Meditation",
+    "output": "Meditation is one of the most beneficial activities a person can do to improve their physical, emotional, and psychological health. Scientifically, it has been proven to reduce anxiety, depression, and fatigue, while increasing focus and concentration, creativity, and self-esteem. Additionally, it helps to reshape thought patterns and self-beliefs and aids in developing a healthy relationship with oneself. \n\nThe physical benefits of meditation are also immense. It helps to regulate hormones, strengthen the immune system, improve physical balance and posture, decrease muscle tension and headaches, and refresh the brain. It also helps to reduce blood pressure, improve sleep quality, and increase healing ability. \n\nIn addition to its physical and psychological benefits, meditation is an amazing tool for spiritual growth. It helps to cultivate a connection with the universe and increases one\u2019s awareness of the present moment and their own inner truths. In doing so, it can be the catalyst for deep healing, acceptance, and personal transformation. \n\nRegardless of one\u2019s beliefs, meditation is a natural and relatively effortless way to make positive changes in one\u2019s life. Hence, it is a practice that everyone can benefit from and should consider incorporating into their daily lives."
+  },
+  {
+    "instruction": "Generate a list of 5 metrics that can be used to evaluate an AI assistant's performance.",
+    "input": "",
+    "output": "1. Number of successful requests\n2. Speed of responses\n3. Accuracy of results\n4. Quality of dialogue\n5. User satisfaction ratings"
+  },
+  {
+    "instruction": "Design a poster advertisement for a new boutique selling <mask>.",
+    "input": "Vintage Clothing",
+    "output": "A stylish poster featuring a combination of classic and modern elements. The background should have a vintage look, while the design should feature a montage of timeless vintage clothing pieces. The text should be set in a bold, modern font and should include the company\u2019s name and details about the boutique."
+  },
+  {
+    "instruction": "Design the user interface for a new AI assistant.",
+    "input": "",
+    "output": "A simple and modern user interface that is easy to use and intuitive. Features should include a search bar and list of suggested questions and commands, a natural language processing interface, and a voice recognition feature. The design should be clear, with plenty of white space, and use easy to read fonts, vivid colors, and creative icons."
+  },
+  {
+    "instruction": "Describe how a character acts in a particular situation.",
+    "input": "Character: Alice\nSituation: Meeting a group of new people",
+    "output": "Alice was shy at first when meeting a group of new people, avoiding direct eye contact and blushing when spoken to. However, she was an excellent listener and soon felt more comfortable in the group and began to engage in conversations. She was friendly and upbeat, asking questions and sharing stories to get to know the others better."
+  },
+  {
+    "instruction": "Explain what the basis of the First Amendment is.",
+    "input": "",
+    "output": "The First Amendment of the United States Constitution states that \u201cCongress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the government for a redress of grievances.\u201d It serves as the basis of the fundamental right to freedom of expression in the United States. This includes the right to speak, the right to write, the right to protest, and the right to practice any religion of one's choosing."
+  },
+  {
+    "instruction": "Write a function to revert a given number to its base 10 form from its binary form.",
+    "input": "",
+    "output": "def binary_to_decimal(binary):\n    # initialize value to 0, which will be the output\n    value = 0\n\n    # Iterate through each binary digit, starting from the least significant bit\n    for i in range(len(binary)-1, -1, -1):\n        # If the binary digit is 1, add 2^i to the value, where i is the index of the binary digit\n        if binary[i] == '1':\n            value += 2**(len(binary)-i-1)\n\n    return value"
+  },
+  {
+    "instruction": "Based on the following description of a data set, decide which elements from this set are categorical and which are numerical.",
+    "input": "The data set contains information of students belonging to a particular school. It includes details such as student name, grade, and heights in cm.",
+    "output": "The element student name is categorical and the elements grade and heights in cm are numerical."
+  },
+  {
+    "instruction": "Explain what data preprocessing is and three steps used in the process.",
+    "input": "",
+    "output": "Data preprocessing is the process of preparing data for further analysis. It typically involves cleaning the data, exploring the data, and transforming the data into a format that can be more easily processed by a machine learning algorithm. Preprocessing includes steps such as data cleaning, imputation of missing values, normalization, data reduction, and feature engineering. Data cleaning is the process of removing invalid or incomplete records from the data set. Data exploration involves exploring the dataset to better understand the data and identify potential problems. Data transformation involves transforming the data into a suitable format, such as scaling and encoding. Data reduction is the process of reducing the data set while still preserving the information needed for further analysis. Feature engineering involves creating or manipulating features that can be used in machine learning algorithms."
+  },
+  {
+    "instruction": "How would artificial intelligence be used for helping the disabled?",
+    "input": "",
+    "output": "Artificial intelligence can be used for helping the disabled in a variety of ways. For example, AI can be used to enable them to more efficiently complete tasks with technology that can understand their needs and activity levels. AI-based tools, such as speech and gesture recognition software, can be used by the disabled to access and interact with devices, applications, and websites, while applications powered by AI technologies, such as facial recognition and natural language processing, can be used to detect abnormalities in movement or speech patterns, or provide guidance to the disabled with adaptive navigation and automation. AI can also be used to develop applications to detect objects in the environment, predict trajectories and outcomes, recognizing facial and emotional expressions, and the generation of sign language translations, aiding those with hearing or sight impairments. AI can also be used for complex tasks such as modeling disease and disability, as well as predicting mobility needs of the disabled in order to provide personalized and adaptive support."
+  },
+  {
+    "instruction": "Tell me an example of how artificial intelligence can improve the customer experience.",
+    "input": "",
+    "output": "Artificial intelligence can be used to improve the customer experience in a variety of ways. For example, AI-powered chatbots can be used to interact with customers and provide answers to common inquiries and questions. AI can also be used to analyze customer data, such as purchase history and online behavior, to personalize recommendations and offers for customers. AI-powered algorithms can also be used to identify customer sentiment and predict customer needs, allowing businesses to proactively offer solutions or assistance. AI-based tools can also be used to enhance customer support, by providing detailed explanations or troubleshooting steps, and to automate customer service tasks, such as performing routine customer interaction processes."
+  },
+  {
+    "instruction": "Create a regex pattern that matches email addresses.",
+    "input": "",
+    "output": "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
+  },
+  {
+    "instruction": "Please rewrite the following sentence to contain only 5 words.",
+    "input": "\"We have an appointment tomorrow at 5 pm.\"",
+    "output": "Tomorrow, 5 pm. appointment."
+  },
+  {
+    "instruction": "Compose a poem that conveys the joy of outdoor activities.",
+    "input": "",
+    "output": "The fresh air, a rushing breeze,\nGrass that dances among the trees.\nA moment of joy, a moment of peace,\nFinding solace in the great outdoors, its bliss \n\nThe sound of birds, the sound of leaves,\nColors of sunset, colors of dreams.\nThe warmth of summer, the winter\u2019s chill,\nOut in nature, life is fulfilled.\n \nThe sweet smell, a salty sea,\nA wilderness that\u2019s calling me.\nThe feeling of being free and wild,\nA sense of peace, a sense that's mild. \n \nThe beauty of nature, it\u2019s a playground,\nAn adventure awaits, a feeling profound.\nOutdoors fills the soul with life and laughter,\nBefore all else, its joy ever after."
+  },
+  {
+    "instruction": "Describe the latest development related to global warming.",
+    "input": "",
+    "output": "The latest development related to global warming is that the concentration of carbon dioxide (CO2) in the Earth's atmosphere is currently the highest it has been in the past 800,000 years. This is due to the burning of fossil fuels over the last two centuries, resulting in an increase in atmospheric CO2 levels by more than 40%. As global temperatures rise, the potential impacts of climate change become more severe, including more extreme weather events and a decrease in biodiversity."
+  },
+  {
+    "instruction": "Suggest five strategies to increase motivation.",
+    "input": "",
+    "output": "1. Set achievable goals with realistic deadlines.\n2. Celebrate successes, however small.\n3. Take breaks and rest when needed.\n4. Break larger tasks into smaller ones.\n5. Use positive affirmation and affirmations to keep yourself motivated."
+  },
+  {
+    "instruction": "Suggest one craft activity that can be done indoors.",
+    "input": "",
+    "output": "Paper Mache is an easy and fun craft activity that can be done indoors. You will need newspaper, adhesive such as glue, flour and water and some food coloring for effect. You can use a balloon as a base, rip the newspaper and lay it in the adhesive to create colorful papier-m\u00e2ch\u00e9 shapes."
+  },
+  {
+    "instruction": "Create a flow-chart outlining the steps to writing a research paper.",
+    "input": "",
+    "output": "Flowchart: \n1. Choose a research topic.\n2. Conduct initial research.\n3. Create an outline.\n4. Write the introduction.\n5. Write the body of the paper.\n6. Write the conclusion.\n7. Proofread and revise.\n8. Format and cite the sources.\n9. Finalize the paper."
+  },
+  {
+    "instruction": "Suggest five actions one can take to reduce water consumption.",
+    "input": "",
+    "output": "1. Limit showering time.\n2. Turn off the tap while brushing teeth and shaving.\n3. Check for and repair any leaks around the house.\n4. Switch to low-flow faucets and shower heads.\n5. Install water-efficient toilets and washing machines."
+  }
+]
